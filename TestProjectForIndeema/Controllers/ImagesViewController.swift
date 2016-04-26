@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ImagesViewer: UIViewController {
+class ImagesViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -64,7 +64,7 @@ class ImagesViewer: UIViewController {
 }
 
 
-extension ImagesViewer: UITableViewDataSource, UITableViewDelegate {
+extension ImagesViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return images.count

@@ -7,33 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359349C21CCFE024009A6A0B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359349C11CCFE024009A6A0B /* Image.swift */; };
+		359349C41CCFE05A009A6A0B /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359349C31CCFE05A009A6A0B /* DataProvider.swift */; };
+		359349C61CCFE07E009A6A0B /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359349C51CCFE07E009A6A0B /* ImagesViewController.swift */; };
+		359349C81CCFE0B9009A6A0B /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359349C71CCFE0B9009A6A0B /* TableCell.swift */; };
 		35BB4A2E1CCE682A006439C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A2D1CCE682A006439C6 /* AppDelegate.swift */; };
-		35BB4A301CCE682A006439C6 /* ImagesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A2F1CCE682A006439C6 /* ImagesViewer.swift */; };
 		35BB4A331CCE682A006439C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A311CCE682A006439C6 /* Main.storyboard */; };
 		35BB4A351CCE682A006439C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A341CCE682A006439C6 /* Assets.xcassets */; };
 		35BB4A381CCE682A006439C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A361CCE682A006439C6 /* LaunchScreen.storyboard */; };
-		35BB4A401CCE68D7006439C6 /* Alamofire+PBV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A3F1CCE68D7006439C6 /* Alamofire+PBV.swift */; };
-		35BB4A421CCE9E4F006439C6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A411CCE9E4F006439C6 /* Router.swift */; };
-		35BB4A441CCEA0D4006439C6 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A431CCEA0D4006439C6 /* DataProvider.swift */; };
-		35BB4A461CCEB19C006439C6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A451CCEB19C006439C6 /* Image.swift */; };
-		35BB4A481CCECD2B006439C6 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A471CCECD2B006439C6 /* TableCell.swift */; };
 		BCDFEABAF133C0FB40635356 /* Pods_TestProjectForIndeema.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8036496DFCA31D29A989019 /* Pods_TestProjectForIndeema.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3304DCAD97384AF2B0C6700C /* Pods-TestProjectForIndeema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProjectForIndeema.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProjectForIndeema/Pods-TestProjectForIndeema.release.xcconfig"; sourceTree = "<group>"; };
+		359349C11CCFE024009A6A0B /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Models/Image.swift; sourceTree = "<group>"; };
+		359349C31CCFE05A009A6A0B /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = API/DataProvider.swift; sourceTree = "<group>"; };
+		359349C51CCFE07E009A6A0B /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesViewController.swift; path = Controllers/ImagesViewController.swift; sourceTree = "<group>"; };
+		359349C71CCFE0B9009A6A0B /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableCell.swift; path = Views/Cellls/TableCell.swift; sourceTree = "<group>"; };
 		35BB4A2A1CCE682A006439C6 /* TestProjectForIndeema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProjectForIndeema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BB4A2D1CCE682A006439C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35BB4A2F1CCE682A006439C6 /* ImagesViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewer.swift; sourceTree = "<group>"; };
 		35BB4A321CCE682A006439C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35BB4A341CCE682A006439C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35BB4A371CCE682A006439C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35BB4A391CCE682A006439C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35BB4A3F1CCE68D7006439C6 /* Alamofire+PBV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+PBV.swift"; sourceTree = "<group>"; };
-		35BB4A411CCE9E4F006439C6 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		35BB4A431CCEA0D4006439C6 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = ../DataProvider.swift; sourceTree = "<group>"; };
-		35BB4A451CCEB19C006439C6 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		35BB4A471CCECD2B006439C6 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		B8036496DFCA31D29A989019 /* Pods_TestProjectForIndeema.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProjectForIndeema.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3832601E3CD9B3F0BC4A98A /* Pods-TestProjectForIndeema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProjectForIndeema.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProjectForIndeema/Pods-TestProjectForIndeema.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +55,64 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		359349BA1CCFDF2A009A6A0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				359349C11CCFE024009A6A0B /* Image.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		359349BB1CCFDF32009A6A0B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				359349C31CCFE05A009A6A0B /* DataProvider.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		359349BC1CCFDF4E009A6A0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				359349C51CCFE07E009A6A0B /* ImagesViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		359349BD1CCFDF6C009A6A0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35BB4A341CCE682A006439C6 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		359349BE1CCFDF76009A6A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				359349BF1CCFDF88009A6A0B /* Cells */,
+				35BB4A311CCE682A006439C6 /* Main.storyboard */,
+				35BB4A361CCE682A006439C6 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		359349BF1CCFDF88009A6A0B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				359349C71CCFE0B9009A6A0B /* TableCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		359349C01CCFDFAA009A6A0B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				35BB4A391CCE682A006439C6 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		35BB4A211CCE682A006439C6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,16 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				35BB4A2D1CCE682A006439C6 /* AppDelegate.swift */,
-				35BB4A2F1CCE682A006439C6 /* ImagesViewer.swift */,
-				35BB4A311CCE682A006439C6 /* Main.storyboard */,
-				35BB4A341CCE682A006439C6 /* Assets.xcassets */,
-				35BB4A361CCE682A006439C6 /* LaunchScreen.storyboard */,
-				35BB4A391CCE682A006439C6 /* Info.plist */,
-				35BB4A431CCEA0D4006439C6 /* DataProvider.swift */,
-				35BB4A3F1CCE68D7006439C6 /* Alamofire+PBV.swift */,
-				35BB4A411CCE9E4F006439C6 /* Router.swift */,
-				35BB4A451CCEB19C006439C6 /* Image.swift */,
-				35BB4A471CCECD2B006439C6 /* TableCell.swift */,
+				359349BA1CCFDF2A009A6A0B /* Models */,
+				359349BB1CCFDF32009A6A0B /* API */,
+				359349BC1CCFDF4E009A6A0B /* Controllers */,
+				359349BE1CCFDF76009A6A0B /* Views */,
+				359349BD1CCFDF6C009A6A0B /* Resources */,
+				359349C01CCFDFAA009A6A0B /* SupportingFiles */,
 			);
 			path = TestProjectForIndeema;
 			sourceTree = "<group>";
@@ -225,12 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BB4A421CCE9E4F006439C6 /* Router.swift in Sources */,
-				35BB4A461CCEB19C006439C6 /* Image.swift in Sources */,
-				35BB4A301CCE682A006439C6 /* ImagesViewer.swift in Sources */,
-				35BB4A481CCECD2B006439C6 /* TableCell.swift in Sources */,
-				35BB4A441CCEA0D4006439C6 /* DataProvider.swift in Sources */,
-				35BB4A401CCE68D7006439C6 /* Alamofire+PBV.swift in Sources */,
+				359349C81CCFE0B9009A6A0B /* TableCell.swift in Sources */,
+				359349C61CCFE07E009A6A0B /* ImagesViewController.swift in Sources */,
+				359349C41CCFE05A009A6A0B /* DataProvider.swift in Sources */,
+				359349C21CCFE024009A6A0B /* Image.swift in Sources */,
 				35BB4A2E1CCE682A006439C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

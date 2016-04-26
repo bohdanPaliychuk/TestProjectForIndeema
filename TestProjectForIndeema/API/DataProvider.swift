@@ -25,7 +25,7 @@ class DataProvider {
             resultHandler(image: nil, error: NSError(domain: "Incorect url", code: 123456, userInfo: nil))
             return nil
         }
-        let  alamofireRequst = request(unwrappedUrl)
+        let  alamofireRequst = Alamofire.request(.GET, unwrappedUrl)
             .progress({ (bytesRead, totalBytesRead, totalBytesExpectedToRead) in
                 dispatch_async(dispatch_get_main_queue(), {
                     let progress = Double(totalBytesRead) / Double(totalBytesExpectedToRead)
