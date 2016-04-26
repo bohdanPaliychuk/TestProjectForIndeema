@@ -30,19 +30,34 @@ enum DownloadStatus {
     }
 }
 
-class ImageModel {
+class Image {
     
     var title: String
     var path: String
     var request: Alamofire.Request?
-    var image: UIImage?
-    var downloadProgress: Float = 0.0
-    var downloadStatus = DownloadStatus.NotStarted// {
-//        didSet {
-//            downloadStatus = oldValue.nextStep
-//        }
-//    }
-
+    
+    var imageDidSetHandler: ((image: UIImage?)->Void)?
+    var image = UIImage(named: "no_image") {
+        didSet {
+            imageDidSetHandler?(image: image)
+            downloadStatus = .DownLoaded
+        }
+    }
+    
+    var progressDidSetHandler: ((progress: Float)->Void)?
+    var progress: Float = 0.0 {
+        didSet {
+            progressDidSetHandler?(progress: progress)
+        }
+    }
+    
+    var downloadStatusDidSetHandler: ((downloadStatus: DownloadStatus)->Void)?
+    var downloadStatus = DownloadStatus.NotStarted {
+        didSet {
+            downloadStatusDidSetHandler?(downloadStatus: downloadStatus)
+        }
+    }
+    
     
     init(title: String, path: String) {
         self.title = title

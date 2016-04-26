@@ -15,7 +15,7 @@
 		35BB4A401CCE68D7006439C6 /* Alamofire+PBV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A3F1CCE68D7006439C6 /* Alamofire+PBV.swift */; };
 		35BB4A421CCE9E4F006439C6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A411CCE9E4F006439C6 /* Router.swift */; };
 		35BB4A441CCEA0D4006439C6 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A431CCEA0D4006439C6 /* DataProvider.swift */; };
-		35BB4A461CCEB19C006439C6 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A451CCEB19C006439C6 /* ImageModel.swift */; };
+		35BB4A461CCEB19C006439C6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A451CCEB19C006439C6 /* Image.swift */; };
 		35BB4A481CCECD2B006439C6 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A471CCECD2B006439C6 /* TableCell.swift */; };
 		BCDFEABAF133C0FB40635356 /* Pods_TestProjectForIndeema.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8036496DFCA31D29A989019 /* Pods_TestProjectForIndeema.framework */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		35BB4A3F1CCE68D7006439C6 /* Alamofire+PBV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+PBV.swift"; sourceTree = "<group>"; };
 		35BB4A411CCE9E4F006439C6 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		35BB4A431CCEA0D4006439C6 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = ../DataProvider.swift; sourceTree = "<group>"; };
-		35BB4A451CCEB19C006439C6 /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		35BB4A451CCEB19C006439C6 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		35BB4A471CCECD2B006439C6 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		B8036496DFCA31D29A989019 /* Pods_TestProjectForIndeema.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProjectForIndeema.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3832601E3CD9B3F0BC4A98A /* Pods-TestProjectForIndeema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProjectForIndeema.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProjectForIndeema/Pods-TestProjectForIndeema.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 				35BB4A431CCEA0D4006439C6 /* DataProvider.swift */,
 				35BB4A3F1CCE68D7006439C6 /* Alamofire+PBV.swift */,
 				35BB4A411CCE9E4F006439C6 /* Router.swift */,
-				35BB4A451CCEB19C006439C6 /* ImageModel.swift */,
+				35BB4A451CCEB19C006439C6 /* Image.swift */,
 				35BB4A471CCECD2B006439C6 /* TableCell.swift */,
 			);
 			path = TestProjectForIndeema;
@@ -226,7 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BB4A421CCE9E4F006439C6 /* Router.swift in Sources */,
-				35BB4A461CCEB19C006439C6 /* ImageModel.swift in Sources */,
+				35BB4A461CCEB19C006439C6 /* Image.swift in Sources */,
 				35BB4A301CCE682A006439C6 /* ImagesViewer.swift in Sources */,
 				35BB4A481CCECD2B006439C6 /* TableCell.swift in Sources */,
 				35BB4A441CCEA0D4006439C6 /* DataProvider.swift in Sources */,

@@ -29,7 +29,7 @@ class DataProvider {
             .progress({ (bytesRead, totalBytesRead, totalBytesExpectedToRead) in
                 dispatch_async(dispatch_get_main_queue(), {
                     let progress = Double(totalBytesRead) / Double(totalBytesExpectedToRead)
-                    progressHandler!(progress: Float(progress))
+                    progressHandler?(progress: Float(progress))
                 })
             })
             .response { (request, response, data, error) in
