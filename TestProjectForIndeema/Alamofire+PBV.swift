@@ -18,6 +18,6 @@ func request(url: NSURL) -> Request {
 //    
 //    func responseResult<T: BaseModel>(completionHandler: (NSURLRequest?, NSHTTPURLResponse?, Result<T>) -> Void)
 //        -> Self {
-//            ;lkdsa;
+//            ;lkdsa;dsadsa
 //    }
 //}
