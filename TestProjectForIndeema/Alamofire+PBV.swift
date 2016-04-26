@@ -17,7 +17,7 @@ func request(url: NSURL) -> Request {
 //extension Alamofire.Request {
 //    
 //    func responseResult<T: BaseModel>(completionHandler: (NSURLRequest?, NSHTTPURLResponse?, Result<T>) -> Void)
-//        -> Self {dssa
+//        -> Self {dssadsadsa
 //            ;lkdsa;dsadsa
 //    }
 //}
