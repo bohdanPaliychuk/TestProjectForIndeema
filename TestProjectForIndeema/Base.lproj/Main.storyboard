@@ -37,15 +37,15 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYi-k9-EcD">
-                                                    <rect key="frame" x="46" y="9" width="42" height="21"/>
+                                                    <rect key="frame" x="46" y="9" width="334" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gn9-Hu-XgZ">
-                                                    <rect key="frame" x="546" y="5" width="46" height="30"/>
+                                                    <rect key="frame" x="502" y="5" width="90" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="WUP-OX-Htf"/>
+                                                        <constraint firstAttribute="width" constant="90" id="WUP-OX-Htf"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <connections>
@@ -53,13 +53,13 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7C-L6-m36">
-                                                    <rect key="frame" x="432" y="0.0" width="42" height="21"/>
+                                                    <rect key="frame" x="388" y="0.0" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mVH-h4-iIX">
-                                                    <rect key="frame" x="432" y="19" width="100" height="2"/>
+                                                    <rect key="frame" x="388" y="19" width="100" height="2"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="m8H-OX-IRA"/>
                                                     </constraints>
@@ -76,6 +76,7 @@
                                                 <constraint firstItem="Gn9-Hu-XgZ" firstAttribute="leading" secondItem="mVH-h4-iIX" secondAttribute="trailing" constant="14" id="gvz-42-Swz"/>
                                                 <constraint firstItem="x7C-L6-m36" firstAttribute="leading" secondItem="mVH-h4-iIX" secondAttribute="leading" id="pQ9-CD-rtN"/>
                                                 <constraint firstItem="gYi-k9-EcD" firstAttribute="centerY" secondItem="Qec-cD-cYS" secondAttribute="centerY" id="vgv-6Y-3DD"/>
+                                                <constraint firstItem="mVH-h4-iIX" firstAttribute="leading" secondItem="gYi-k9-EcD" secondAttribute="trailing" constant="8" id="wdY-TS-EHc"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

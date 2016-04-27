@@ -18,7 +18,7 @@ class ImageDetailedViewController: UIViewController {
         super.viewDidLoad()
         
         DataProvider.loadImageWithPath(image.path, progressHandler: nil) { (image, error) in
-            print(image)
+            
             self.imageView.image = image
         }
     }
