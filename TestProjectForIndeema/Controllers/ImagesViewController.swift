@@ -12,6 +12,7 @@ class ImagesViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    var selectedImage: Image?
     var images = [
         Image(title: "Pyramid", path: "-NC7nLIBRiYM/VIS5lENiSAI/AAAAAAABY2I/Rgsq6dQgqMg/s0/Louvre%2BPyramid%2BUHD.jpg"),
         Image(title: "Constance", path: "-dFZSF8ZESBM/VIBYiGDfltI/AAAAAAABYbM/bNuPZ0bUHko/s0/Constance%2BHalaveli%2BMaldives%2BUHD.jpg"),
@@ -47,6 +48,11 @@ class ImagesViewController: UIViewController {
     }
     
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let vc = segue.destinationViewController as? ImageDetailedViewController {
+            vc.image = selectedImage
+        }
+    }
     
     private func setButtonTitleForCell(cell: TableCell, image: Image) {
         
@@ -123,6 +129,17 @@ extension ImagesViewController: UITableViewDataSource, UITableViewDelegate {
         self.images[indexPath.row].progressDidSetHandler = nil
         self.images[indexPath.row].imageDidSetHandler = nil
         self.images[indexPath.row].downloadStatusDidSetHandler = nil
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: false)
+        
+        let image = images[indexPath.row]
+        
+        if image.downloadStatus == .DownLoaded {
+            self.selectedImage = image
+            performSegueWithIdentifier("SegueToDetailedViewController", sender: nil)
+        }
     }
 }
 

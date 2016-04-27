@@ -104,11 +104,44 @@
                     <navigationItem key="navigationItem" id="Val-9e-MUX"/>
                     <connections>
                         <outlet property="tableView" destination="byw-RS-lpb" id="Vkq-sp-wI3"/>
+                        <segue destination="EjX-tQ-K64" kind="show" identifier="SegueToDetailedViewController" id="10Y-G0-lMy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1304" y="-364"/>
+            <point key="canvasLocation" x="1314" y="-387"/>
+        </scene>
+        <!--Image Detailed View Controller-->
+        <scene sceneID="9cq-cz-pNC">
+            <objects>
+                <viewController id="EjX-tQ-K64" customClass="ImageDetailedViewController" customModule="TestProjectForIndeema" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fWc-1z-Zpb"/>
+                        <viewControllerLayoutGuide type="bottom" id="4El-21-dNc"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="4kd-rV-LVA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JTx-EW-6gZ">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JTx-EW-6gZ" firstAttribute="leading" secondItem="4kd-rV-LVA" secondAttribute="leading" id="DZe-WD-naO"/>
+                            <constraint firstItem="4El-21-dNc" firstAttribute="top" secondItem="JTx-EW-6gZ" secondAttribute="bottom" id="Sv8-WP-dyE"/>
+                            <constraint firstItem="JTx-EW-6gZ" firstAttribute="top" secondItem="fWc-1z-Zpb" secondAttribute="bottom" id="TDe-eL-dcb"/>
+                            <constraint firstAttribute="trailing" secondItem="JTx-EW-6gZ" secondAttribute="trailing" id="zET-pV-1xD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="JTx-EW-6gZ" id="ISW-pq-FJY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KuW-JW-mNN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2035" y="-364"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c57-ne-w0H">
